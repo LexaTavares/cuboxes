@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 30px auto;
+  text-align: center;
+}
+.container img {
+  max-width: 100%;
+  height: auto;
+}
+.container section {
+  margin-top: 12%;
+}
+.container h1 {
+  font-size: 45px;
+}
+.container p {
+  font-size: 22px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navigation li {
+  list-style: none;
+  float: left;
+  margin-left: 20px;
+  padding: 20px;
+}
+.navigation li:hover {
+  cursor: pointer;
+  background-color: #fa3c54;
+  border-radius: 10px;
+}
+.navigation .imgs {
+  margin-right: 20%;
+}
+
+.suscripciones {
+  display: flex;
+  flex-direction: row;
+}
+.suscripciones div {
+  width: 50%;
+  margin: 1%;
+  text-align: left;
+  font-size: 14px;
+}
+.suscripciones .suscripciones-texto {
+  text-align: left;
+}
+.suscripciones .suscripciones-tiempo {
+  text-align: right;
+}
+
+.btn {
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #fa3c54;
+  border-radius: 10px;
+  padding: 10px;
+  width: 35%;
+  color: #fa3c54;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #fa3c54;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #fa3c54;
+  color: #FFFF;
+  border-radius: 10px;
+}
+
+.footer {
+  background: #000;
+  margin-top: 15%;
+}
+.footer .footer-img {
+  width: 100%;
+  padding: 10px;
+}
+.footer .footer-social {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  color: #ffff;
+}
+.footer .footer-social .footer-img {
+  width: 50%;
+  align-items: flex-start;
+}
+.footer .footer-social .footer-terminos {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer .footer-social .footer-terminos li {
+  list-style: none;
+  color: #ffff;
+  float: left;
+  margin: 10px;
+}
+
+#modal {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all 0.5s;
+  display: none;
+}
+#modal form {
+  background-color: #fff;
+  width: 25%;
+  margin: 10% 35%;
+  padding: 2%;
+}
+#modal input {
+  width: 85%;
+  margin: 5%;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+#modal .cerrar-modal {
+  width: 100%;
+  text-align: right;
+}
+
+/*# sourceMappingURL=main.css.map */
